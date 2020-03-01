@@ -1,3 +1,3 @@
 # Mercury1
 
-My frst android app in github.
+My first android app in github.
