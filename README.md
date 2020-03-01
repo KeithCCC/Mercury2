@@ -4,7 +4,6 @@ My first android app in github.
 
 This is for conversion tool.
 
-
 |num|日本語|英語|数字|
 |-|-|-|-:|
 |1| 1 円 |0.01 USD (= 1 cent)|1|
@@ -23,7 +22,6 @@ This is for conversion tool.
 |14| 10 兆円| 100 billion USD (= 100B USD)|100,000,000,000,000|
 |15| 100 兆円| 1 trillion USD (= 1T USD)|1,000,000,000,000,000|
 
-
 |英語|日本語数字|数字|0の数|
 |-|-|-:|-|
 |thousand|千|1,000|3|
@@ -32,7 +30,6 @@ This is for conversion tool.
 |million|百万|1,000,000|6|
 |ten million|1千万|10,000,000|7|
 |hundred million|1億|100,000,0007|8|
-
 
 
 | 数字（日本）       | 数字（英）         | 読み方（日） | 読み方（英）     |
