@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quick Converter to human lanaguae</string>
+    <string name="answerText">Answer</string>
+    <string name="convert">To English</string>
+    <string name="enter_number">0</string>
+    <string name="number_covresion">Number covresion</string>
+    <string name="tojapanese">To Japanese</string>
+</resources>
