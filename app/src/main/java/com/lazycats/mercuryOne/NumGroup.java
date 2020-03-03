@@ -1,4 +1,4 @@
-package com.example.mercury1;
+package com.lazycats.mercuryOne;
 
 class NumGroup {
     double allnumber;

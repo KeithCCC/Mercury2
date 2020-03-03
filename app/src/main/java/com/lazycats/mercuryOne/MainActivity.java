@@ -1,4 +1,4 @@
-package com.example.mercury1;
+package com.lazycats.mercuryOne;
 
 import androidx.appcompat.app.AppCompatActivity;
 

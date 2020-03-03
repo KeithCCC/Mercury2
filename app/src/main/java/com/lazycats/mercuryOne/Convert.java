@@ -1,4 +1,4 @@
-package com.example.mercury1;
+package com.lazycats.mercuryOne;
 
 class Convert {
 
@@ -60,13 +60,13 @@ class Convert {
         } while (goExit);
 
         if ((!nGrp.billions.equals("0")) && (nGrp.billions != "")  ) {
-            answerText = nGrp.billions + " billon \n";
+            answerText = nGrp.billions + " Billon \n";
         }
         if ((!nGrp.millions.equals("0")) && (nGrp.millions != "" )) {
-            answerText = answerText + nGrp.millions + " million \n";
+            answerText = answerText + nGrp.millions + " Million \n";
         }
         if ((nGrp.thousands != "0" ) && (nGrp.thousands != "" )) {
-            answerText = answerText + nGrp.thousands + " thousand \n";
+            answerText = answerText + nGrp.thousands + " Thousand \n";
         }
         answerText = answerText + nGrp.ones;
 
@@ -208,7 +208,7 @@ class Convert {
         } while (goExit);
 
         if ((!nGrp.one_ch.equals("0")) && (!nGrp.one_ch.equals(""))  ) {
-            answerText = nGrp.one_ch + " 兆";
+            answerText = nGrp.one_ch + "兆";
         }
         if ((!nGrp.thousands_o.equals("0")) && (!nGrp.thousands_o.equals(""))) {
             answerText = answerText + nGrp.thousands_o;
@@ -220,7 +220,7 @@ class Convert {
             answerText = answerText + nGrp.ten_o;
         }
         if ((!nGrp.one_o.equals("0")) && (!nGrp.one_o.equals(""))) {
-            answerText = answerText + nGrp.one_o + " 億";
+            answerText = answerText + nGrp.one_o + "億";
         }
         if ((!nGrp.thousands_m.equals("0")) && (!nGrp.thousands_m.equals(""))) {
             answerText = answerText + nGrp.thousands_m;
@@ -232,10 +232,10 @@ class Convert {
             answerText = answerText + nGrp.ten_m;
         }
         if ((!nGrp.one_m.equals("0")) && (!nGrp.one_m.equals(""))) {
-            answerText = answerText + nGrp.one_m + " 万";
+            answerText = answerText + nGrp.one_m + "万";
         }
         if ((!nGrp.thousands.equals("0")) && (!nGrp.thousands.equals(""))) {
-            answerText = answerText + nGrp.thousands + " 千";
+            answerText = answerText + nGrp.thousands + "千";
         }
         answerText = answerText + nGrp.ones;
 
