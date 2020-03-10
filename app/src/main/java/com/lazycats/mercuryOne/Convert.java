@@ -1,5 +1,7 @@
 package com.lazycats.mercuryOne;
 
+import android.text.TextUtils;
+
 class Convert {
 
     static String Jn2E(String inputNum) {
@@ -10,6 +12,10 @@ class Convert {
         int strLeng;
         NumGroup nGrp = new NumGroup();
         nGrp.allnumber = Double.parseDouble(inputNum);
+
+        if (TextUtils.isDigitsOnly(inputNum))
+            return "";
+
 
         do {
 
@@ -81,6 +87,9 @@ class Convert {
         int strLeng;
         NumGroupJ nGrp = new NumGroupJ();
         nGrp.allnumber = Double.parseDouble(inputNum);
+
+        if (TextUtils.isDigitsOnly(inputNum))
+            return "";
 
         do {
 

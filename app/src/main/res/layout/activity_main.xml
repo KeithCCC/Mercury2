@@ -12,23 +12,26 @@
         android:layout_height="0dp"
         android:autofillHints=""
         android:ems="10"
-        android:imeOptions="actionDone"
-        android:inputType="number"
         android:text="@string/enter_number"
         android:textSize="24sp"
+        android:layout_margin="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.445"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#ffffff"
+        />
 
 
     <TextView
         android:id="@+id/text_View"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="100dp"
+        android:layout_margin="15dp"
+        android:background="#ffffff"
         android:fontFamily="sans-serif"
         android:text="@string/answerText"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/Base_linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.423"
@@ -131,7 +134,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="7"
-                android:textSize="18sp" />
+                android:textSize="18dp" />
 
             <Button
                 android:id="@+id/button8"
@@ -266,14 +269,13 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/buttonx1"
+                android:id="@+id/buttonDecimal"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
-                android:text=""
+                android:text="."
                 android:textSize="18sp"
-                android:visibility="invisible" />
+                 />
 
             <Button
                 android:id="@+id/buttonClear"
